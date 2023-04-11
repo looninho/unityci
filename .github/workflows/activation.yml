@@ -16,9 +16,9 @@ jobs:
           - 2020.3.46f1
     steps:
       # Checkout repository (required to test local actions)
-      - name: Checkout repository
-        uses: actions/checkout@v3
-    
+      - name: Checkout
+        uses: actions/checkout@v2.7.0
+
       # Request manual activation file
       - name: Request manual activation file
         id: getManualLicenseFile
